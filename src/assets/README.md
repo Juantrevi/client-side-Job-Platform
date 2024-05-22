@@ -130,14 +130,14 @@ export default App;
 - create src/pages directory
 - setup index.js and following pages :
 
-  AddJob.jsx
+  //AddJob.jsx
   Admin.jsx
-  AllJobs.jsx
+  //AllJobs.jsx
   DashboardLayout.jsx
-  DeleteJob.jsx
+  //DeleteJob.jsx
   EditJob.jsx
   Error.jsx
-  HomeLayout.jsx
+  //HomeLayout.jsx
   Landing.jsx
   Login.jsx
   Profile.jsx
