@@ -22,7 +22,6 @@ const Register = () => {
                         Already a member?
                         <Link to='/login' className='member-btn'>Login</Link>
                     </p>
-
             </form>
         </Wrapper>
     )
