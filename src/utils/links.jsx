@@ -8,6 +8,8 @@ import { MdAdminPanelSettings } from 'react-icons/md';
 
 const links = [
     {
+        //The path is a dot because it is the same as the current page
+        //if we use '/' it will redirect to the home page
         text: 'add job',
         path: '.',
         icon: <FaWpforms />
