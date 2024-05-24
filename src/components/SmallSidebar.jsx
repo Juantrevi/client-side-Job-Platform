@@ -4,6 +4,7 @@ import {FaTimes} from "react-icons/fa";
 import Logo from "./Logo.jsx";
 import links from "../utils/links.jsx";
 import {NavLink} from "react-router-dom";
+import NavLinks from "./NavLinks.jsx";
 
 const SmallSidebar = () => {
     const {showSidebar, toggleSidebar} = useDashboardContext();
@@ -18,20 +19,7 @@ const SmallSidebar = () => {
                         <header>
                             <Logo />
                         </header>
-                        <div className='nav-links'>
-                            {links.map((link)=>{
-                                const {text, path, icon} = link;
-                                return <NavLink to={path}
-                                                key={text}
-                                                className='nav-link'
-                                                onClick={toggleSidebar}
-                                                end
-                                        >
-                                    <span className='icon'>{icon}</span>
-                                    {text}
-                                </NavLink>
-                            })}
-                        </div>
+                        <NavLinks />
                     </div>
                 </div>
         </Wrapper>
